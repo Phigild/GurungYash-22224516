@@ -1,0 +1,123 @@
+body{
+	margin: 0px;
+
+}
+
+header {
+	margin: 0px;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("TOKYO.jpeg");
+	background-size: cover;
+	text-align: center;
+}
+
+#flex-box{
+	display: inline-flex;
+	width: 780px;
+	font-family: "Roboto Slab", serif;
+	font-size: 36px;
+	color: white;
+	
+}
+
+
+#profilepic{
+	margin: -50px auto 0px auto;
+	width: 100px;
+	height: 100px;
+	border: 1px solid white;
+	border-radius: 100%;
+	background-image: url("YASH.jpg");
+	overflow: hidden;
+}
+#profilepic img{
+	display:block;
+	margin: 0 auto;
+	max-width: 100%;
+	max-height: 100%;
+	
+}
+
+#name{
+
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 18px;
+	color: rgb(51, 51, 51);
+	line-height: 24px;
+	text-align: center;
+}
+
+#flex-container-1 {
+	width: 66.67%;
+	margin: auto;
+}
+#flex-container-2 {
+	width: 66.67%;
+	margin: auto;
+}
+#flex-container-3 {
+	width: 66.67%;
+	margin: auto;
+}
+li{
+	font-size: 36px;
+	color: rgba(0, 0, 0, 0.25);
+	list-style-type: decimal;
+}
+li h1{
+	color: rgb(51, 51, 51);
+}
+
+ol{
+	margin: 0px;
+	position: relative;
+	display: inline-block;
+}
+
+
+.flex-item{
+	margin-top: 60px;
+	margin-bottom:120px;
+	
+}
+
+img{
+	width: 100%;
+}
+
+
+h1{
+	font-family: "Roboto Slab", serif;
+	font-size: 36px;
+	font-weight: bold;
+	color: white;
+
+}
+
+
+a{
+	color: #42b4d6;
+} 
+
+a:link{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+p{
+	margin: 20px 0px 20px 0px;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 18px;
+	color: rgb(51, 51, 51);
+	line-height: 32px;
+}
+
+
+
+  
